@@ -1,0 +1,71 @@
+h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+h5{
+    color: rgba(54, 57, 88, 1);
+    font-size: 24px;
+    font-weight: 700;
+}
+h3{
+    margin-right: auto;
+}
+.my-button{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    width: 170px;
+    height: 60px;
+    border: 0px;
+}
+.my-button img{
+    height: 50%;
+}
+#first-logo{
+    height: 40px;
+}
+#first-logo img{
+    height: 100%;
+}
+.nav-end{
+    display: flex;
+    justify-content: end;
+}
+.woman{
+   padding: 12px; 
+   border-radius: 21px;
+   margin: 0%;
+   border: 0;
+}
+.woman-img{
+    background-color: #F1F1F1;
+    margin: auto;
+    padding: 40px;
+    width: 100%;
+    border-radius: 21px;
+    height: 70%;
+}
+.man{
+    padding: 12px; 
+    border-radius: 21px;
+    margin: 0%;
+    border: 0; 
+}
+.man-img{
+    background-color: #F1F1F1;
+    margin: auto;
+    padding: 10%;
+    width: 100%;
+    border-radius: 21px;
+    height: 70%;
+}
+@media (max-width: 770px){
+    #first-logo{
+        height: 26px;
+    }
+        
+}
