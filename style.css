@@ -13,6 +13,8 @@ h5{
 }
 h3{
     margin-right: auto;
+    color: rgba(250, 190, 76, 1);
+
 }
 .my-button{
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
@@ -34,6 +36,10 @@ h3{
 .nav-end{
     display: flex;
     justify-content: end;
+}
+.alice-blue{
+    background-color: aliceblue;
+    margin-top: 5px;
 }
 .woman{
    padding: 12px; 
