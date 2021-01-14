@@ -92,7 +92,12 @@ p{
     margin: 10px;
     width: 100%;
     height: 280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
+
 .box img{
     height: 80px;
 }
@@ -118,6 +123,7 @@ p{
         padding: 10px;
         align-items: center;
         justify-content: center;
+        text-align: start;
     }
     .box img{
         margin: 20px
