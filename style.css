@@ -84,7 +84,8 @@ p{
     height: 70%;
 }
 .last-photo img{
-    width: 90%;
+    width: 99%;
+    margin-left: 1%;
 }
 .box{
     background-color: white;
@@ -96,6 +97,8 @@ p{
 .box img{
     height: 100px;
     width: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 .row-color{
     background-color: azure;
@@ -106,8 +109,14 @@ p{
 .full-width{
     width: 100%;
 }
+
 @media (max-width: 770px){
     #first-logo{
         height: 26px;
     }  
+    .my-text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
 }
